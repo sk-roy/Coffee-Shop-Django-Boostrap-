@@ -1,0 +1,237 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock title %} 
+{% block body %}
+
+<div class="container-fluid my-0 px-0">
+  <div
+    id="carouselExampleCaptions"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <ol class="carousel-indicators">
+      <li
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="0"
+        class="active"
+      ></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/img/1.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Black Coffee</h5>
+          <p>Without coffee I literally can't even.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/coffee_5.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Math & Coffee</h5>
+          <p>A mathematician is a device for turning coffee into theorems.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/nice_2.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>quotes by - Edward Abbey</h5>
+          <p>Our culture runs on coffee and gasoline, the first often tasting like the second.</p>
+        </div>
+      </div>
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#carouselExampleCaptions"
+      role="button"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#carouselExampleCaptions"
+      role="button"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+</div>
+
+<br>
+<div class="container my-5">
+<p><i> 
+  "When people think of coffee, they usually think of its ability to provide an energy boost. However, according to some research, it can also offer some other important health benefits, such as a lower risk of liver cancer, type 2 diabetes, and heart failure"
+</i></p>
+</div>
+
+
+
+{% comment %} Albums {% endcomment %}
+<div class="container my-3">
+  <h3 class="my-3 text-center">Select from our range of Ice Cream</h3>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="static/img/album_1.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            Coffee is a brewed drink prepared from roasted coffee beans, 
+            the seeds of berries from certain Coffea species
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                Add to Cart
+              </button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="static/img/album_2.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, 
+            primarily due to its caffeine content
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                Add to Cart
+              </button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="static/img/album_3.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            Clinical research indicates that moderate coffee consumption is benign or mildly 
+            beneficial as a stimulant in healthy adults.
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                Add to Cart
+              </button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="static/img/album_4.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            The earliest credible evidence of coffee-drinking as the modern beverage appears 
+            in modern-day Yemen in southern Arabia in the middle of the 15th century.
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                Add to Cart
+              </button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="static/img/album_5.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            The earliest credible evidence of coffee-drinking or 
+            knowledge of the coffee tree appears in the middle of the 15th century
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                Add to Cart
+              </button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="static/img/album_6.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            Several species of shrub of the genus Coffea produce the berries 
+            from which coffee is extracted.
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                Add to Cart
+              </button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock body %}
